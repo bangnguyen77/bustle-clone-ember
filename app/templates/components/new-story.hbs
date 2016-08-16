@@ -1,0 +1,31 @@
+<h1>New Story</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="text">Text</label>
+      {{input value=text id="text"}}
+    </div>
+
+    <div class="form-group">
+      <label for="titleShort">Short Title</label>
+      {{input value=titleShort id="titleShort"}}
+    </div>
+
+    <div class="form-group">
+      <label for="titleLong">Long Title</label>
+      {{input value=titleLong id="titleLong"}}
+    </div>
+
+    <div class="form-group">
+      <label for="mainImage">Image</label>
+      {{input value=mainImage id="mainImage"}}
+    </div>
+
+    <div class="form-group">
+      <label for="author">Author</label>
+      {{input value=author id="author"}}
+    </div>
+
+    <button {{action 'save1'}}>Save</button>
+  </form>
+</div>

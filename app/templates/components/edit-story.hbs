@@ -1,0 +1,36 @@
+<h1>Edit Story</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="storyId">Story ID</label>
+      {{input value=storyId id="storyId"}}
+    </div>
+
+    <div class="form-group">
+      <label for="edit-text">Text</label>
+      {{input value=edit-text id="edit-text"}}
+    </div>
+
+    <div class="form-group">
+      <label for="edit-titleShort">Short Title</label>
+      {{input value=edit-titleShort id="edit-titleShort"}}
+    </div>
+
+    <div class="form-group">
+      <label for="edit-titleLong">Long Title</label>
+      {{input value=edit-titleLong id="edit-titleLong"}}
+    </div>
+
+    <div class="form-group">
+      <label for="edit-mainImage">Image</label>
+      {{input value=edit-mainImage id="edit-mainImage"}}
+    </div>
+
+    <div class="form-group">
+      <label for="edit-author">Author</label>
+      {{input value=edit-author id="edit-author"}}
+    </div>
+
+    <button {{action 'update'}}>Save</button>
+  </form>
+</div>
